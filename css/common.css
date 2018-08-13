@@ -1,0 +1,21 @@
+/* 
+* @Author: Marte
+* @Date:   2018-08-06 17:32:28
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-08-11 20:58:37
+*/
+html {
+    font:normal normal 14px "SF Pro SC","HanHei SC","SF Pro Text", "Microsoft yahei","sans-serif";
+    color: #333;
+}
+body,ul,ol,dl,h1,h2,h3 ,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
