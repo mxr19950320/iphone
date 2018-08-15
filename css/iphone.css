@@ -1,0 +1,195 @@
+/* 
+* @Author: Marte
+* @Date:   2018-08-10 15:24:43
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-08-14 20:39:16
+*/
+header{
+    width: 100%;
+    height: 44px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    z-index: 999;
+}
+header div.nav{
+    max-width:1000px;
+    height: 100%;
+    margin: 0 auto; 
+}
+header div.nav>ul{
+    height: 100%;
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-between;
+    align-items: center;     
+}
+header div.nav>ul>li>a{
+    letter-spacing: 0.05em;
+    color: #fff;
+    font-weight: 100;
+    font-size: 12px;
+}
+header div.nav>ul>li>a.apple {
+    font-size: 19px;
+ }
+header div.nav>ul>li>a.search{
+    font-size: 15px;
+ }
+header div.nav>ul>li>a:hover{
+    opacity: .65;
+ }
+ 
+ div.main{
+    position: relative;
+    top: 44px;
+    background-color: #fafafa;
+    padding: 80px 0;
+ }
+ div.main1{
+    max-width: 100%;
+    position: relative;
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    margin-top: 60px;
+ }
+ div.main2{
+    max-width: 100%;
+    position: relative;
+    background-color: #131218;
+    padding: 40px 0;
+    margin-top: 17px;
+ }
+ div.main>div.top,div.main1>div.top,div.main2>div.top{
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+ div.main>div.top div,div.main1>div.top div,div.main2>div.top div{
+    margin: 10px auto;
+    text-align: center;
+ }
+ div.main>div.top>div.one a,div.main1>div.top>div.one a{
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+}
+div.main2>div.top>div.one a{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+ div.main>div.top>div.two a,div.main1>div.top>div.two a{
+    font-size: 1.7rem;
+    color: black;
+}
+div.main2>div.top>div.two a{
+    font-size: 1.7rem;
+    color: white;
+}
+ div.main>div.top>div.three>a:first-child,div.main1>div.top>div.three>a:first-child{
+    font-size: 1.3rem;
+    color: #0070c9;
+    margin-left: -1.4rem;
+}
+div.main2>div.top>div.three>a:first-child{
+    font-size: 1.3rem;
+    color: white;
+    margin-left: -1.4rem;
+}
+div.main>div.top>div.three>a:last-of-type,div.main1>div.top>div.three>a:last-of-type{
+    font-size: 1.3rem;
+    color: #0070c9;
+    margin-left: 3.5rem;
+}
+div.main2>div.top>div.three>a:last-of-type{
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 3.5rem;
+}
+div.main>div.top>div.three>span,div.main1>div.top>div.three>span{
+    font-size: 1.3rem;
+    color: #0070c9;
+}
+div.main2>div.top>div.three>span{
+    font-size: 1.3rem;
+    color: white;
+}
+ div.main>div.top>div.three a:hover,div.main1>div.top>div.three a:hover,div.main2>div.top>div.three a:hover{
+    text-decoration: underline;
+}
+div.main>div.section,div.main1>div.section,div.main2>div.section{
+    padding-top: 32px;
+    max-width: 1000px;
+    margin: 0 auto;   
+}
+div.main>div.section img,div.main1>div.section img,div.main2>div.section img{
+    max-width: 100%;
+}
+div.main3{
+    padding: 10px 4px;
+    margin: 0 auto;
+}
+div.main3,div.main4,div.main5{
+    background-color: #fff;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+div.main4,div.main5{
+    padding: 0 4px 10px 4px;
+}
+div.main3 a,div.main4 a,div.main5 a{
+    margin: 0 5px;
+}
+div.main3>a img,div.main4>a img,div.main5>a img{
+    width: 100%;
+    margin: 0 auto;
+}
+section{
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+section .nav{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+section div.nav ul li a{
+    line-height: 1.5rem;
+    color: #555;
+    font-size: 9px;
+}
+section div.nav ul li.title {
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    color: #000;
+}
+section div.nav ul li a:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+footer div.address{
+    width: 900px;
+    margin-left: 260px;
+    padding: 8px 0 8px 0;
+    border-bottom: 1px solid red;
+}
+footer div.address p{
+    line-height: 1.5rem;
+    color: #555;
+    font-size: 9px;
+}
+footer div.address p a{
+    color: #0070c9;
+    font-size: 9px;
+}
+footer div.address p a:hover{
+    text-decoration: underline;
+}
